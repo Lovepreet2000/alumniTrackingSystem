@@ -1,0 +1,78 @@
+.background_covered{
+    position:relative;
+    top:0;
+    left:0;
+    padding-top:calc(100vh - 151px);
+    width:100%;
+}
+        .profile-container{
+            position:relative;
+            width:100%;
+            height:100vh;
+           
+        }
+        .left-container,.right-container{
+            position:relative;
+            top:0;
+            left:0;
+            height:100vh;
+        }
+        .left-container{
+            text-align:center;
+            padding:70px 10px 30px 10px;
+            color:#fff;
+            background-color: #007DC4;
+        }
+        .left-container .alumni-imgandname .alumni-image img{
+            border-radius:50%;
+        }
+        .left-container .alumni-imgandname .alumni-name{
+            font-size:25px;
+            font-weight:bold;
+            font-family: tahoma;
+            margin-top:15px;
+        }
+        .contactwithalumni ul {
+            list-style:none;
+            padding:10px 20px;
+            text-align:left;
+            font-size:18px;
+        }
+        .contactwithalumni ul li{
+            padding:4px;
+
+        }
+        .contactwithalumni ul li{
+            padding:4px;
+
+        }
+        .contactwithalumni ul li i{
+            margin-right:6px;
+            color:#fff;
+            text-transform: capitalize;
+        }
+        .right-container{
+            padding:20px;
+            background:#fff;
+        }
+        .alumni-details{
+            padding-top:120px;
+            padding-left:20px;
+        }
+        .alumni-details div{
+            
+            font-size:15px;
+            padding:5px;
+        }
+        .alumni-details div span{
+            margin-right: 3px;
+            color:rgba(139, 127, 127, 0.315);
+            font-weight: bold;
+        }
+        .savebutton{
+            width:300px;
+            height:40px;
+            background:#007DC4;
+            color:#fff;
+            border:none;
+        }

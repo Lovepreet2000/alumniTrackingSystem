@@ -1,0 +1,41 @@
+.myprofile{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: calc(100vh - 151px);
+}
+.background_img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: url("../image/department1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index:-1111;
+}
+.background_covered{
+    position:relative;
+    top:133px;
+    left:0;
+    width:100%;
+    height: auto;
+    background-color:rgba(0, 124, 196, 0.74);
+}
+.background_covered form div {
+    color:#fff;
+}
+.background_covered input,
+.background_covered select{
+    background: transparent;
+    color:#fff;
+    border:none;
+    outline:none;
+}
+.background_covered input:focus{
+    background: transparent;
+    color:#fff;
+}
